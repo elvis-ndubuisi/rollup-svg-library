@@ -1,15 +1,24 @@
 {
-  "name": "rollup-svg-library",
-  "version": "1.0.0",
-  "description": "SVG library exp.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "typescript": "^5.2.2"
-  }
+	"name": "rollup-svg-library",
+	"version": "0.0.0",
+	"description": "SVG library exp.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint src/**/*.ts",
+		"format": "prettier src/**/*.ts --write && eslint src/**/*.ts --fix"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^20.8.4",
+		"@typescript-eslint/eslint-plugin": "^6.7.5",
+		"@typescript-eslint/parser": "^6.7.5",
+		"eslint": "^8.51.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"prettier": "3.0.3",
+		"typescript": "^5.2.2"
+	}
 }
