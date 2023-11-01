@@ -11,7 +11,7 @@
 		"format": "prettier src/**/*.ts --write && eslint src/**/*.ts --fix",
 		"build": "rollup --config",
 		"dev": "rollup --config --watch",
-		"icon:build": "svgr -- ./src/assets"
+		"icon:build": "svgr -- ./src/assets ./src"
 	},
 	"keywords": [],
 	"author": "",
@@ -20,6 +20,7 @@
 		"@rollup/plugin-commonjs": "^25.0.5",
 		"@rollup/plugin-node-resolve": "^15.2.3",
 		"@rollup/plugin-typescript": "^11.1.5",
+		"@svgr/cli": "^8.1.0",
 		"@svgr/rollup": "^8.1.0",
 		"@types/node": "^20.8.4",
 		"@typescript-eslint/eslint-plugin": "^6.7.5",
@@ -29,6 +30,7 @@
 		"eslint-plugin-prettier": "^5.0.0",
 		"prettier": "3.0.3",
 		"react": "^18.2.0",
+		"rimraf": "^5.0.5",
 		"rollup": "^4.0.2",
 		"rollup-plugin-dts": "^6.1.0",
 		"rollup-plugin-esbuild": "^6.1.0",

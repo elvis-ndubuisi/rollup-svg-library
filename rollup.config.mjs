@@ -22,7 +22,7 @@ const ROLLUP_CONFIG = [
 			typescript(),
 			resolve(),
 			commonjs(),
-			svgr({icon: true, typescript: true, svgo: true, ref: true, outDir: './src/icons'}),
+			svgr({icon: true, typescript: true, svgo: true, ref: true, outDir: 'src/icons'}),
 		],
 	},
 ];
